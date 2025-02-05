@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- google font CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
-      rel="stylesheet"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- google font CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+            rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+            rel="stylesheet" />
 
-    <!-- font awesome CDN -->
-    <script
-      src="https://kit.fontawesome.com/7065d6b97b.js"
-      crossorigin="anonymous"
-    ></script>
+        <!-- font awesome CDN -->
+        <script
+            src="https://kit.fontawesome.com/7065d6b97b.js"
+            crossorigin="anonymous"></script>
 
-    <!-- Daisyui CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
+        <!-- Daisyui CDN -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
       .font-ADLaM-Display {
         font-family: "ADLaM Display", serif;
       }
@@ -39,7 +35,7 @@
         font-family: "Sora", serif;
       }
     </style>
-    <script>
+        <script>
       tailwind.config = {
         theme: {
           extend: {
@@ -50,81 +46,130 @@
         },
       };
     </script>
-    <script>
+        <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
               clifford: "#da373d",
+              Primary:"#FFDC26"
             },
           },
         },
       };
     </script>
-  </head>
+    </head>
 
-  <body>
-    <header>
-        <!-- navbar section -->
-         <nav>
-            <div class="navbar bg-base-100">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
-      </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <a class="btn btn-ghost text-xl">daisyUI</a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <a class="btn">Button</a>
-  </div>
-</div>
-         </nav>
-    </header>
-    <!-- main -->
-    <main></main>
+    <body>
+        <header>
+            <!-- navbar section -->
+            <nav class=" font-sora bg-[#FFF9F4]">
+                <div class="navbar container m-auto ">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button"
+                                class="btn btn-ghost lg:hidden">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul
+                                tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a>Item 1</a></li>
 
-    <!-- footer -->
-    <footer></footer>
-  </body>
+                                <li><a>Item 3</a></li>
+                            </ul>
+                        </div>
+                        <img src="./c1-assets/logo-header.png" alt>
+                        <a class="text-xl">Browse<span
+                                class="text-[#FFDC26]">4</span>Pets</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a>Find a pet</a></li>
+                            <li>
+
+                                <summary>Breeds</summary>
+
+                            </li>
+                            <li><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end space-x-4">
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <button
+                            class="btn btn-sm btn-outline btn-warning">login</button>
+                        <a class="btn btn-sm bg-warning">Register</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- hero banner -->
+            <div class="bg-white">
+                <div
+                    class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6 py-12">
+                    <div class="max-w-lg text-center lg:text-left ">
+                        <h1 class="text-4xl font-bold text-gray-900">
+                            Pamper Your Pet,<br> Because They Deserve the Best
+                        </h1>
+                        <p class="mt-4 text-gray-600">
+                            Discover a world of treats, toys, and essentials
+                            handpicked for your furry friends.
+                            Shop now and make tails wag with joy!
+                        </p>
+                        <button
+                            class="mt-6 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500">
+                            Find a pet
+                        </button>
+                    </div>
+                    <div class="mt-8 lg:mt-0">
+                        <img class="w-[1400px]" src="./c1-assets/cat-big.png"
+                            alt="Cute ">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main -->
+        <main>
+            <section class="container m-auto text-3xl font-bold ">
+                <div>
+                    <h2>Browse By Categories</h2>
+                </div>
+
+                <div class="flex">
+                    <div class="card bg-[#F9DF8A] shadow-xl">
+                        <div class="avatar">
+                            <div
+                                class="p-5 rounded-full bg-white rounded-full">
+                                <img class=" w-[104px] h-[104px] "
+                                    src="./c1-assets/dog-cartoon.png" />
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <h1 class="font-bold">Dog</h1>
+                            <p>3 items</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- footer -->
+        <footer></footer>
+    </body>
 </html>
